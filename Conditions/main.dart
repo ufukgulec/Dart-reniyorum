@@ -1,12 +1,9 @@
 void main() {
-  
-  bool condition=true;
+  bool condition = true;
 
-  if(condition){
+  if (condition) {
     print("Koşullar sağlandı.");
-  }
-  else
-  {
+  } else {
     print("Koşullar sağlanmadı.");
   }
 
