@@ -12,4 +12,8 @@ void main() {
   double myDoubleNum = 5.99;
 
   bool myBool = true;
+
+  print(true && false);
+  print(false || true);
+  print(!true);
 }
