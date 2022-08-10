@@ -16,4 +16,7 @@ void main() {
   print(true && false);
   print(false || true);
   print(!true);
+
+  var list = [1, 2, 3, 4];
+  print(list);
 }
