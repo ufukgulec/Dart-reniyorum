@@ -1,24 +1,21 @@
 void main() {
-  
-Person ogrenci=new Student("Ufuk");
+  Person ogrenci = new Student("Ufuk");
   ogrenci.Speak();
 }
 
-class Person{
-  
-  void Speak(){
+class Person {
+  void Speak() {
     print("Kişisi konuşuyor");
   }
 }
 
 class Student extends Person {
-  
   String Name;
-  
+
   Student(this.Name);
-  
+
   @override
-  void Speak(){
-    print(Name+" Persondan türemiş öğrenci");  
+  void Speak() {
+    print(Name + " Persondan türemiş öğrenci");
   }
 }
